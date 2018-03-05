@@ -33,6 +33,11 @@ int main(){
 				continue;
 			}
 			
+			/* If there is a space after a space, ignore. */
+			if(c == ' ' && prev_c == ' '){
+				continue;
+			}
+			
 			/* If we are in a comment, ignore the character. */
 			if(flags & COMMENT){
 				prev_c = c;
