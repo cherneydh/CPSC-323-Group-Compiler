@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 
 #define COMMENT 1 /* 0000 0001 */
 /* f |= to on */
