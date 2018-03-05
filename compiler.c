@@ -23,7 +23,7 @@ int main(){
 				flags &= COMMENT;
 			}
 			
-			if(c == '\n' && prev_c == '\n'){
+			if(isspace(c) && prev_c == '\n'){
 				continue;
 			}
 			
