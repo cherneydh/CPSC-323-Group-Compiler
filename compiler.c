@@ -12,6 +12,14 @@ enum{
  NEW, CONTENT, NO_CONTENT
 } con = NEW;
 
+enum{
+ TRUE, FALSE
+} need_space = FALSE;
+
+enum{
+ IN, OUT
+} in_quote = OUT;
+
 int getc(FILE * _File);
 
 int main(){
@@ -19,6 +27,7 @@ int main(){
 	int c;
 	int next_c;
 	int prev_c;
+	int space = ' ';
 	char string[1];
 	FILE * source;
 	FILE * dest;
@@ -60,6 +69,18 @@ int main(){
 			con == NO_CONTENT;
 			write_log(__LINE__,__func__,3,"Establishing no content on new line inside a comment","");
 		}
+		
+		/* Establishing end of quote */
+		if(c == '\'' && in_quote == TRUE){
+			write_log(__LINE__,__func__,3,"Start Quote","");
+			in_quote = FALSE;
+		}
+		
+		/* Establishing inside a quote */
+		if(c == '\'' && op != COMMENT){
+			write_log(__LINE__,__func__,3,"End Quote","");
+			in_quote = TRUE;
+		}
 
 		/* Set the flag that we are in a comment if these conditions are true */
 		if(c == '(' && next_c == '*'){
@@ -85,11 +106,42 @@ int main(){
 		}
 		
 		/* If there is a space after a space, ignore. */
-		if(c == ' ' && prev_c == ' '){
+		if(c == ' ' && next_c == ' '){
 			write_log(__LINE__,__func__,0,"Ignoring Excess Space","");
 			continue;
 		}
-		
+	
+		/* Ignoring space before a comma  */
+		if(c == ' ' && next_c == ','){
+			write_log(__LINE__,__func__,0,"Ignoring Space before comma","");
+			continue;
+		}
+	
+
+		/* Ignore space before a semi colon */
+		if(c == ' ' && next_c == ';'){
+			write_log(__LINE__,__func__,0,"Ignoring space before semicolon","");
+			continue;
+		}
+	
+		/* Adding space after comma */
+		if(c == ',' && !(isspace(next_c))){
+			write_log(__LINE__,__func__,0,"Adding Space after comma","");
+			need_space = TRUE;	
+		}
+
+		/* Equals sign spacing */
+		if((!(isspace(c))) && next_c == '=' && in_quote == FALSE){
+			write_log(__LINE__,__func__,0,"Space before equals","");
+			need_space = TRUE;
+		}
+
+		/* Equals sign spacing */
+		if(c == '=' && (!(isspace(next_c))) && in_quote == FALSE){
+			write_log(__LINE__,__func__,0,"Space after equals","");
+			need_space = TRUE;
+		}
+
 		/* If we are in a comment, ignore the character. */
 		if(op == COMMENT){
 			write_log(__LINE__,__func__,0,"Ignoring","Inside Comment");
@@ -112,11 +164,16 @@ int main(){
 		
 		/* Reset con */
 		if(c == '\n'){
-			
 			con = NEW;
 			write_log(__LINE__,__func__,3,"Reseting content","");		
 		}
 		
+		/* Adding space where needed */
+		if(need_space == TRUE){
+			fputc(space, dest);
+			need_space = FALSE;
+		}
+
 		prev_c = c;
 	}
 	
