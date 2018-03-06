@@ -1,0 +1,890 @@
+Mon Mar  5 19:00:23 2018 || Line: 32 || Contextual Name: main || Type: Announce || Description: Opened final.txt || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 38 || Contextual Name: main || Type: Announce || Description: Opened final1.txt || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: (
+Mon Mar  5 19:00:23 2018 || Line: 48 || Contextual Name: main || Type: Announce || Description: Start Comment || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: *
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 67 || Contextual Name: main || Type: Note || Description: Ignoring Excess Space || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: P
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: r
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: o
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: g
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: r
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: a
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: m
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: N
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: a
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: m
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: e
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: :
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: S
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: p
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: r
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: i
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: n
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: g
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 2
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 0
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 1
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 4
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 
+
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 	
+Mon Mar  5 19:00:23 2018 || Line: 61 || Contextual Name: main || Type: Note || Description: Ignoring Space after new line || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: F
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: i
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: n
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: a
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: l
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: P
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: r
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: o
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: j
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: e
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: c
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: t
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 
+
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 	
+Mon Mar  5 19:00:23 2018 || Line: 61 || Contextual Name: main || Type: Note || Description: Ignoring Space after new line || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: N
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: a
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: m
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: e
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: :
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: N
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: a
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: t
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: h
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: a
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: n
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: R
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: e
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: e
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: d
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 
+
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: *
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: )
+Mon Mar  5 19:00:23 2018 || Line: 54 || Contextual Name: main || Type: Announce || Description: End Comment || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 
+
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: 
+
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: P
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: P
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: R
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: R
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: O
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: O
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: G
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: G
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: R
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: R
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: A
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: A
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: M
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: M
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: a
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: a
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: b
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: b
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: a
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: a
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 1
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: 1
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 3
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: 3
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: ;
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: ;
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 
+
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: 
+
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: V
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: V
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: A
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: A
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: R
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: R
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 
+
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: 
+
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 61 || Contextual Name: main || Type: Note || Description: Ignoring Space after new line || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 
+
+Mon Mar  5 19:00:23 2018 || Line: 61 || Contextual Name: main || Type: Note || Description: Ignoring Space after new line || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 61 || Contextual Name: main || Type: Note || Description: Ignoring Space after new line || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 61 || Contextual Name: main || Type: Note || Description: Ignoring Space after new line || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 61 || Contextual Name: main || Type: Note || Description: Ignoring Space after new line || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: a
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: a
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: b
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: b
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 5
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: 5
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: ,
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: ,
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 67 || Contextual Name: main || Type: Note || Description: Ignoring Excess Space || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: c
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: c
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: b
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: b
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 67 || Contextual Name: main || Type: Note || Description: Ignoring Excess Space || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: ,
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: ,
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 67 || Contextual Name: main || Type: Note || Description: Ignoring Excess Space || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: b
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: b
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: e
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: e
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: ,
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: ,
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: e
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: e
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: b
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: b
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: :
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: :
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: I
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: I
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: N
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: N
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: T
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: T
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: E
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: E
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: G
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: G
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: E
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: E
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: R
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: R
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: ;
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: ;
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: (
+Mon Mar  5 19:00:23 2018 || Line: 48 || Contextual Name: main || Type: Announce || Description: Start Comment || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: *
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: d
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: e
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: c
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: l
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: a
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: r
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: e
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: v
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: a
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: r
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: i
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: a
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: b
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: l
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: e
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: s
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: *
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: )
+Mon Mar  5 19:00:23 2018 || Line: 54 || Contextual Name: main || Type: Announce || Description: End Comment || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 
+
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: 
+
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: B
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: B
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: E
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: E
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: G
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: G
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: I
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: I
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: N
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: N
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 
+
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: 
+
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 61 || Contextual Name: main || Type: Note || Description: Ignoring Space after new line || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 61 || Contextual Name: main || Type: Note || Description: Ignoring Space after new line || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 61 || Contextual Name: main || Type: Note || Description: Ignoring Space after new line || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: a
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: a
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: b
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: b
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 5
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: 5
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 67 || Contextual Name: main || Type: Note || Description: Ignoring Excess Space || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 67 || Contextual Name: main || Type: Note || Description: Ignoring Excess Space || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: =
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: =
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 67 || Contextual Name: main || Type: Note || Description: Ignoring Excess Space || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 5
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: 5
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 67 || Contextual Name: main || Type: Note || Description: Ignoring Excess Space || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 67 || Contextual Name: main || Type: Note || Description: Ignoring Excess Space || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 67 || Contextual Name: main || Type: Note || Description: Ignoring Excess Space || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: ;
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: ;
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 
+
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: 
+
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 61 || Contextual Name: main || Type: Note || Description: Ignoring Space after new line || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 61 || Contextual Name: main || Type: Note || Description: Ignoring Space after new line || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 61 || Contextual Name: main || Type: Note || Description: Ignoring Space after new line || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: c
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: c
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: b
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: b
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 67 || Contextual Name: main || Type: Note || Description: Ignoring Excess Space || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: =
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: =
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 1
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: 1
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 0
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: 0
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: ;
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: ;
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 
+
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: 
+
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 61 || Contextual Name: main || Type: Note || Description: Ignoring Space after new line || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 61 || Contextual Name: main || Type: Note || Description: Ignoring Space after new line || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 61 || Contextual Name: main || Type: Note || Description: Ignoring Space after new line || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: P
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: P
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: R
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: R
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: I
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: I
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: N
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: N
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: T
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: T
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: (
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: (
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: €
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: €
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: ˜
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: ˜
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: a
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: a
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: b
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: b
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 5
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: 5
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: =
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: =
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: â
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: â
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: €
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: €
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: ™
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: ™
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: ,
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: ,
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 67 || Contextual Name: main || Type: Note || Description: Ignoring Excess Space || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 67 || Contextual Name: main || Type: Note || Description: Ignoring Excess Space || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 67 || Contextual Name: main || Type: Note || Description: Ignoring Excess Space || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: a
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: a
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: b
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: b
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 5
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: 5
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: )
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: )
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: ;
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: ;
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 
+
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: 
+
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: (
+Mon Mar  5 19:00:23 2018 || Line: 48 || Contextual Name: main || Type: Announce || Description: Start Comment || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: *
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: c
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: o
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: m
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: p
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: u
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: t
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: e
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: a
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: n
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: d
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: p
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: r
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: i
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: n
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: t
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: t
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: h
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: e
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: t
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: o
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: t
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: a
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: l
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: o
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: f
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: a
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: a
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: n
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: d
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: c
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 67 || Contextual Name: main || Type: Note || Description: Ignoring Excess Space || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: *
+Mon Mar  5 19:00:23 2018 || Line: 73 || Contextual Name: main || Type: Note || Description: Ignoring || Other: Inside Comment
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: )
+Mon Mar  5 19:00:23 2018 || Line: 54 || Contextual Name: main || Type: Announce || Description: End Comment || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 
+
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: 
+
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 61 || Contextual Name: main || Type: Note || Description: Ignoring Space after new line || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 61 || Contextual Name: main || Type: Note || Description: Ignoring Space after new line || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 61 || Contextual Name: main || Type: Note || Description: Ignoring Space after new line || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: e
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: e
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: b
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: b
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: =
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: =
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 67 || Contextual Name: main || Type: Note || Description: Ignoring Excess Space || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: c
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: c
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: b
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: b
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: +
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: +
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: a
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: a
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: b
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: b
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 5
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: 5
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 67 || Contextual Name: main || Type: Note || Description: Ignoring Excess Space || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: ;
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: ;
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 
+
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: 
+
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 61 || Contextual Name: main || Type: Note || Description: Ignoring Space after new line || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 61 || Contextual Name: main || Type: Note || Description: Ignoring Space after new line || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 61 || Contextual Name: main || Type: Note || Description: Ignoring Space after new line || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: P
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: P
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: R
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: R
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: I
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: I
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: N
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: N
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: T
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: T
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: (
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: (
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: €
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: €
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: ˜
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: ˜
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: e
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: e
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: b
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: b
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: =
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: =
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: â
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: â
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: €
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: €
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: ™
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: ™
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 67 || Contextual Name: main || Type: Note || Description: Ignoring Excess Space || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 67 || Contextual Name: main || Type: Note || Description: Ignoring Excess Space || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: ,
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: ,
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: e
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: e
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: b
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: b
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: )
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: )
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 67 || Contextual Name: main || Type: Note || Description: Ignoring Excess Space || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: ;
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: ;
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 
+
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: 
+
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 61 || Contextual Name: main || Type: Note || Description: Ignoring Space after new line || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 
+
+Mon Mar  5 19:00:23 2018 || Line: 61 || Contextual Name: main || Type: Note || Description: Ignoring Space after new line || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 61 || Contextual Name: main || Type: Note || Description: Ignoring Space after new line || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 61 || Contextual Name: main || Type: Note || Description: Ignoring Space after new line || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 61 || Contextual Name: main || Type: Note || Description: Ignoring Space after new line || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: b
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: b
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: e
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: e
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 67 || Contextual Name: main || Type: Note || Description: Ignoring Excess Space || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: -
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 67 || Contextual Name: main || Type: Note || Description: Ignoring Excess Space || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 2
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: 2
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: *
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: *
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: a
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: a
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: b
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: b
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: c
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: c
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 5
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: 5
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: +
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: +
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 67 || Contextual Name: main || Type: Note || Description: Ignoring Excess Space || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: e
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: e
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: b
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: b
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: ;
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: ;
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 
+
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: 
+
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 61 || Contextual Name: main || Type: Note || Description: Ignoring Space after new line || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 61 || Contextual Name: main || Type: Note || Description: Ignoring Space after new line || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 61 || Contextual Name: main || Type: Note || Description: Ignoring Space after new line || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: P
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: P
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: R
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: R
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: I
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: I
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: N
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: N
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: T
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: T
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: (
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: (
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 67 || Contextual Name: main || Type: Note || Description: Ignoring Excess Space || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: b
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: b
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: e
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: e
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 67 || Contextual Name: main || Type: Note || Description: Ignoring Excess Space || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: )
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: )
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 67 || Contextual Name: main || Type: Note || Description: Ignoring Excess Space || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other:  
+Mon Mar  5 19:00:23 2018 || Line: 67 || Contextual Name: main || Type: Note || Description: Ignoring Excess Space || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: ;
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: ;
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 
+
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: 
+
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: E
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: E
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: N
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: N
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: D
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: D
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: .
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: .
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: 
+Mon Mar  5 19:00:23 2018 || Line: 43 || Contextual Name: main || Type: Announce || Description: Start Processing || Other: 
+
+Mon Mar  5 19:00:23 2018 || Line: 79 || Contextual Name: main || Type: Announce || Description: Commiting to File || Other: 
+
