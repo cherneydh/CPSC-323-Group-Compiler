@@ -5,17 +5,19 @@
 /* 0 = Note, 1 = Error, 2 = Warning, 3 = Announce */
 
 enum{
- COMMENT, NORMAL /* 0000 0001 */
-/* f |= to on */
-/* f &= to off */
+ COMMENT, NORMAL
 } op = NORMAL;
+
+enum{
+ NEW, CONTENT, NO_CONTENT
+} con = NEW;
 
 int getc(FILE * _File);
 
 int main(){
 	/* Declare variables */
 	int c;
-	int check;
+	int next_c;
 	int prev_c;
 	char string[1];
 	FILE * source;
@@ -37,14 +39,34 @@ int main(){
 	}else{
 		write_log(__LINE__,__func__,3,"Opened final1.txt","");
 	}
-	
-	while((c = getc(source)) != EOF){
+
+	next_c = getc(source);	
+	while(c != EOF){
+		if(con == NEW){
+			write_log(__LINE__,__func__,3,"Con is set to NEW","");
+		}
+		if(con == CONTENT){
+			write_log(__LINE__,__func__,3,"Con is set to CONTENT","");
+		}
+		if(con == NO_CONTENT){
+			write_log(__LINE__,__func__,3,"Con is set to NO_CONTENT","");
+		} 
+		c = next_c;
+		next_c = getc(source);	
 		string[0] = c;
-		write_log(__LINE__,__func__,3,"Start Processing",string);
+
+		/* Set con when new line in comment */
+		if(con == NEW && op == COMMENT){
+			con == NO_CONTENT;
+			write_log(__LINE__,__func__,3,"Establishing no content on new line inside a comment","");
+		}
 
 		/* Set the flag that we are in a comment if these conditions are true */
-		if(c == '(' && (check=getc(source)) == '*'){
-			ungetc(check, source);
+		if(c == '(' && next_c == '*'){
+			if(con == NEW){
+				write_log(__LINE__,__func__,3,"Establishing no content on new line","");
+				con = NO_CONTENT;
+			}
 			write_log(__LINE__,__func__,3,"Start Comment","");
 			op = COMMENT;
 		}
@@ -74,10 +96,26 @@ int main(){
 			prev_c = c;
 			continue;
 		}
+
+		/* Skip the newline if the line had no content */
+		if(isspace(c) && con == NO_CONTENT){
+			write_log(__LINE__,__func__,0,"Skipping white space on no content line","");
+			continue;
+		}
+	
+		/* Print to file */	
+		if(c != EOF){
+			write_log(__LINE__,__func__,0,"Commiting",string);
+			con = CONTENT;
+			fputc(c, dest);
+		}		
 		
-		/* Print char to destination file */
-		write_log(__LINE__,__func__,3,"Commiting to File",string);
-		fputc(c, dest);
+		/* Reset con */
+		if(c == '\n'){
+			
+			con = NEW;
+			write_log(__LINE__,__func__,3,"Reseting content","");		
+		}
 		
 		prev_c = c;
 	}
