@@ -1,5 +1,5 @@
-L   [a-zA-Z_]
-A   [a-zA-Z_0-9]
+L   [a-fA-F_]
+A   [a-fA-F_0-9]
 WS  [ \t\v\n\f]
 
 %{
@@ -20,7 +20,8 @@ extern void yyerror(const char *);
 "VAR"		{ return(VAR); }
 
 {L}{A}*		{ return(IDENTIFIER); }
-[1-9][0-9]*	{ return(INTEGER); }
+[1-9][0-9]*	{ return(INT); }
+"'"(.)+"'"	{ return(STRING); } 
 
 "-"		{ return '-'; }
 "+"		{ return '+'; }
