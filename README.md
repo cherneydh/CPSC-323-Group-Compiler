@@ -21,7 +21,7 @@ cc lex.yy.c y.tab.c
 To test the final1.txt against the language:
 ./a.out <final1.txt
 
-###To Do List:###
+### To Do List: ###
 
 * Polish off the remaining grammar issues in Yacc
 
