@@ -13,12 +13,19 @@ Created compile.l, renamed compiler.c -> scanner.c, created new lex and yacc tha
 Basic syntactical analysis using lex/yacc.
 
 Compilation Instructions:
+
 lex compile.l
+
 yacc -d compile.y
+
 cc lex.yy.c y.tab.c
+
 ./a.out
 
+
+
 To test the final1.txt against the language:
+
 ./a.out <final1.txt
 
 ### To Do List: ###
