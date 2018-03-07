@@ -22,7 +22,11 @@ To test the final1.txt against the language:
 ./a.out <final1.txt
 
 To Do List:
-*Polish off the remaining grammar issues in Yacc
-*Add actions for each section in Yacc
-*Create error list for syntax errors
-*Translate to C++
+
+* Polish off the remaining grammar issues in Yacc
+
+* Add actions for each section in Yacc
+
+* Create error list for syntax errors
+
+* Translate to C++
