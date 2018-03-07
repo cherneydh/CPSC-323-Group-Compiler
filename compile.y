@@ -16,10 +16,9 @@ start		: PROGRAM pname';' VAR declist';' START statlist END
 		;
 pname		: id
 		;
-id		: letter id 
-		| letter 
-		| digit id
-		| digit
+id		: letter
+		| id letter 
+		| id digit
 		;
 declist		: dec ':' type
 		;
@@ -35,7 +34,7 @@ stat		: print
 print		: PRINT '(' output ')'
 		;
 output 		: id
-		| '(' '\'' '\'' ',' ')' id 
+		| '\'' '\'' ',' id 
 		;
 assign		: id '=' expr
 		;
@@ -51,7 +50,8 @@ factor		: id
 		| number
 		| '(' expr ')'
 		;
-number		: digit '{' digit '}'
+number		: digit 
+		| digit number
 		;
 type		: INTEGER
 		;
