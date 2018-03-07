@@ -12,7 +12,7 @@ extern int yylex();
 %start start
 
 %%
-start		: PROGRAM pname';' VAR declist';' START statlist END
+start		: PROGRAM pname';' VAR declist';' START statlist END 
 		;
 pname		: id
 		;
@@ -34,7 +34,7 @@ stat		: print
 print		: PRINT '(' output ')'
 		;
 output 		: id
-		| '\'' '\'' ',' id 
+		| string ',' id 
 		;
 assign		: id '=' expr
 		;
@@ -73,7 +73,7 @@ letter		: 'a'
 		| 'e'
 		| 'f'
 		;
-
+string		:;
 %%
 #include <stdio.h>
 
