@@ -7,7 +7,6 @@ WS  [ \t\v\n\f]
 #include "y.tab.h"
 
 extern void yyerror(const char *); 
-// When ready, change printf -> return
 %}
 
 %%
@@ -18,7 +17,6 @@ extern void yyerror(const char *);
 "END."		{ return(END); }
 "PRINT"		{ return(PRINT); }
 "VAR"		{ return(VAR); }
-
 {L}{A}*		{ return(IDENTIFIER); }
 [1-9][0-9]*	{ return(INT); }
 "'"(.)+"'"	{ return(STRING); } 
