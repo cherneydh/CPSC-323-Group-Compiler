@@ -139,22 +139,7 @@ int main(){
 		if(c == ',' && !(isspace(next_c))){
 			write_log(__LINE__,__func__,0,"Adding Space after comma","");
 			need_space = TRUE;	
-		}
-		
-		/* Adding space after asterisk */
-		if(c == '*' && (!(isspace(next_c)))){
-			if(in_quote == FALSE){
-				printf("HERE\n");
-				write_log(__LINE__,__func__,0,"Adding Space after asterisk","");
-				need_space = TRUE;	
-			}
-		}
-		
-		/* Adding space before asterisk */
-		if(next_c == '*' && (!(isspace(c))) && in_quote == FALSE){
-			write_log(__LINE__,__func__,0,"Adding Space before asterisk","");
-			need_space = TRUE;	
-		}
+		}	
 		
 		/* Equals sign spacing */
 		if((!(isspace(c))) && next_c == '=' && in_quote == FALSE){
