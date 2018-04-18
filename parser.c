@@ -106,11 +106,22 @@ int main(){
 		}
 		
 		/* If there is a space after a space, ignore. */
+		if(c == ' ' && prev_c == '('){
+			write_log(__LINE__,__func__,0,"Ignoring Excess Space after (","");
+			continue;
+		}
+		
+		/* If there is a space after a space, ignore. */
+		if(c == ' ' && next_c == ')'){
+			write_log(__LINE__,__func__,0,"Ignoring Excess Space before )","");
+			continue;
+		}
+
+		/* If there is a space after a space, ignore. */
 		if(c == ' ' && next_c == ' '){
 			write_log(__LINE__,__func__,0,"Ignoring Excess Space","");
 			continue;
 		}
-	
 		/* Ignoring space before a comma  */
 		if(c == ' ' && next_c == ','){
 			write_log(__LINE__,__func__,0,"Ignoring Space before comma","");
@@ -129,7 +140,22 @@ int main(){
 			write_log(__LINE__,__func__,0,"Adding Space after comma","");
 			need_space = TRUE;	
 		}
-
+		
+		/* Adding space after asterisk */
+		if(c == '*' && (!(isspace(next_c)))){
+			if(in_quote == FALSE){
+				printf("HERE\n");
+				write_log(__LINE__,__func__,0,"Adding Space after asterisk","");
+				need_space = TRUE;	
+			}
+		}
+		
+		/* Adding space before asterisk */
+		if(next_c == '*' && (!(isspace(c))) && in_quote == FALSE){
+			write_log(__LINE__,__func__,0,"Adding Space before asterisk","");
+			need_space = TRUE;	
+		}
+		
 		/* Equals sign spacing */
 		if((!(isspace(c))) && next_c == '=' && in_quote == FALSE){
 			write_log(__LINE__,__func__,0,"Space before equals","");
@@ -146,6 +172,7 @@ int main(){
 		if(op == COMMENT){
 			write_log(__LINE__,__func__,0,"Ignoring","Inside Comment");
 			prev_c = c;
+			need_space = FALSE;
 			continue;
 		}
 
@@ -154,7 +181,19 @@ int main(){
 			write_log(__LINE__,__func__,0,"Skipping white space on no content line","");
 			continue;
 		}
-	
+		
+		/* Adding space after semicolon */
+		if(c == ':' && !(isspace(next_c)) && in_quote == FALSE){
+			write_log(__LINE__,__func__,0,"Adding Space after colon","");
+			need_space = TRUE;	
+		}
+		
+		/* Adding space before semicolon */
+		if(next_c == ':' && !(isspace(c)) && in_quote == FALSE){
+			write_log(__LINE__,__func__,0,"Adding Space before colon","");
+			need_space = TRUE;	
+		}
+		
 		/* Print to file */	
 		if(c != EOF){
 			write_log(__LINE__,__func__,0,"Commiting",string);
