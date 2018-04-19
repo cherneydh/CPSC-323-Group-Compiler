@@ -1,12 +1,13 @@
 L   [a-fA-F_]
 A   [a-fA-F_0-9]
-WS  [ \t\v\n\f]
+WS  [ \t\v\f]
 
 %{
 #include <stdio.h>
-#include "y.tab.h"
+#include "compile.tab.h"
 
-extern void yyerror(const char *); 
+extern void yyerror(const char *);
+extern int yylineno = 1; 
 // When ready, change printf -> return
 %}
 
@@ -36,6 +37,7 @@ extern void yyerror(const char *);
 "'"		{ return '\''; }
 
 {WS}+		;
+[\n]		yylineno++;
 .		;
 
 %%

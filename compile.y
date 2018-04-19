@@ -4,6 +4,7 @@
 
 void yyerror(const char *);
 extern int yylex();
+extern int yylineno;
 %}
 
 /* Yacc Definitions */
@@ -19,7 +20,7 @@ pname		: id
 		;
 
 id		: IDENTIFIER
-		| error { printf("***UNKNOWN IDENTIFIER\n"); }
+		| error { printf("***UNKNOWN IDENTIFIER at line %s\n"); }
 		;
 
 declist		: dec ':' type
@@ -78,5 +79,5 @@ int main(){
 void yyerror(const char *s)
 {
 	fflush(stdout);
-	fprintf(stderr, "*** %s\n", s);
+	fprintf(stderr, "*** %s at line %d\n", s, yylineno);
 }
