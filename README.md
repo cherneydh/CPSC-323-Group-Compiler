@@ -12,6 +12,12 @@ Next step is to adjust spacing around variabes.
 Created compile.l, renamed compiler.c -> scanner.c, created new lex and yacc that do syntactical analysis of program.
 Basic syntactical analysis using lex/yacc.
 
+**04-17-2018**
+Finished parser.c which takes a txt file with comments and excess space and turns it into something that can be parsed.
+compile.l is finished in its current state.
+What needs to be accomplished now is polishing the rule set of compile.y to properly check the syntax of the file to make sure it can be properly compiled. In addition, we need error messages for when the syntax analysis fails.
+I also added a sample.txt of a file that would pass syntactical analysis so someone can start working on the step of translataing that file into a C++ file that correlates.
+
 Compilation Instructions:
 
 lex compile.l

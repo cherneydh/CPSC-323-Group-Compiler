@@ -6,9 +6,13 @@ WS  [ \t\v\f]
 #include <stdio.h>
 #include "compile.tab.h"
 
+//<<<<<<< HEAD
 extern void yyerror(const char *);
 extern int yylineno = 1; 
 // When ready, change printf -> return
+//=======
+//extern void yyerror(const char *); 
+//>>>>>>> master
 %}
 
 %%
@@ -19,7 +23,6 @@ extern int yylineno = 1;
 "END."		{ return(END); }
 "PRINT"		{ return(PRINT); }
 "VAR"		{ return(VAR); }
-
 {L}{A}*		{ return(IDENTIFIER); }
 [1-9][0-9]*	{ return(INT); }
 "'"(.)+"'"	{ return(STRING); } 
