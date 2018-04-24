@@ -5,6 +5,7 @@
 void yyerror(const char *);
 extern int yylex();
 extern int yylineno;
+extern char* yytext;
 %}
 
 /* Yacc Definitions */
@@ -13,40 +14,82 @@ extern int yylineno;
 %start start
 
 %%
-start		: PROGRAM pname ';' VAR declist ';' START statlist END 
+start		: PROGRAM pname middle {;} // ';' VAR declist ';' START statlist stop {;} 
+		| error {printf("Expected PROGRAM at line %d, but found %s instead\n", yylineno, yytext); exit(EXIT_FAILURE);}
 		;
 
-pname		: id
+middle		: ';' {;}
+		| ';' variable {;}
+		| error {printf("Expected ; at line %d\n", (yylineno - 1)); exit(EXIT_FAILURE);}
 		;
 
-id		: IDENTIFIER
-		| error { printf("***UNKNOWN IDENTIFIER at line %s\n"); }
+variable	: VAR declist ending {;}
+		| error {printf("Expected VAR at line %d, but found %s instead\n", yylineno, yytext); exit(EXIT_FAILURE);}
 		;
 
-declist		: dec ':' type
+ending		: ';' {;}
+		| ';' statements {;}
+		| error {printf("Expected ; at line %d\n", (yylineno - 1)); exit(EXIT_FAILURE);}
 		;
 
-dec		: id ',' dec 
-		| id
+statements	: START statlist stop {;}
+		| error {printf("Expected BEGIN at line %d, but found %s instead\n", yylineno, yytext); exit(EXIT_FAILURE);}
 		;
 
-statlist	: stat ';' 
-		| stat ';' statlist
+stop		: END {exit(EXIT_SUCCESS);}
 		;
 
-stat		: print 
-		| assign
+pname		: id {;}
 		;
 
-print		: PRINT '(' output ')'
+id		: IDENTIFIER {;}
+		| error { printf("Expected an identifier at line %d, but found %s instead\n", yylineno, yytext); exit(EXIT_FAILURE);}
 		;
 
-output 		: id
-		| STRING ',' id 
+declist		: dec ':' type {;}
+		| error {printf("Expected : at line %d\n", yylineno); exit(EXIT_FAILURE);}
+		;
+
+/*colonCheck	: ':' type {;}
+		| error {printf("Expected : at line %d\n", yylineno); exit(EXIT_FAILURE);}
+		;*/
+
+dec		: /*id commaCheck {;}*/id ',' dec {;} 
+		| id {;}
+//		| error {printf("Expected , at line %d\n", yylineno); exit(EXIT_FAILURE);} // fix this, there is a reduce problem
+		;
+
+/*commaCheck	: ',' decCheck {;}
+		| error {printf("Expected , at line %d\n", yylineno); exit(EXIT_FAILURE);}
+		;
+
+decCheck	: dec {;}
+		| error {printf("Expected an identifier at line %d, but found %s instead\n", yylineno, yytext); exit(EXIT_FAILURE);}
+		;*/
+
+statlist	: stat ';' {;}
+		| stat ';' statlist {;}
+		| error {printf("Expected a ; at line %d\n", yylineno); exit(EXIT_FAILURE);}
+		;
+
+/*semiColonCheck	: ';' {;}
+		| ';' statlist {;}
+		| error {printf("Expected a ; at line %d", yylineno); exit(EXIT_FAILURE);} 
+		;*/
+
+stat		: print {;}
+		| assign {;}
+		;
+
+print		: PRINT '(' output ')' {;}
+		;
+
+output 		: id {;}
+		| STRING ',' id {;} 
 		;
 
 assign		: id '=' expr
-		| error { printf("= is missing\n"); }
+		| error { printf("= is missing at line %d\n", yylineno); exit(EXIT_FAILURE);}
 		;
 
 expr		: term
@@ -68,6 +111,7 @@ number		: INT
 		;
 
 type		: INTEGER
+		| error {printf("Expected INTEGER at line %d, but found %s", yylineno, yytext); exit(EXIT_FAILURE);}
 		;
 %%
 #include <stdio.h>

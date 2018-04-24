@@ -748,17 +748,17 @@ YY_RULE_SETUP
 case 21:
 YY_RULE_SETUP
 #line 42 "compile.l"
-;
+{;}
 	YY_BREAK
 case 22:
 YY_RULE_SETUP
 #line 43 "compile.l"
-yylineno++;
+{yylineno++;}
 	YY_BREAK
 case 23:
 YY_RULE_SETUP
 #line 44 "compile.l"
-;
+{printf("Unexpected character at line %d\n", yylineno); exit(EXIT_FAILURE);}
 	YY_BREAK
 case 24:
 YY_RULE_SETUP

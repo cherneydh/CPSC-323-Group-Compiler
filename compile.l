@@ -39,9 +39,9 @@ extern int yylineno = 1;
 ";"		{ return ';'; }
 "'"		{ return '\''; }
 
-{WS}+		;
-[\n]		yylineno++;
-.		;
+{WS}+		{;}
+[\n]		{yylineno++;}
+.		{printf("Unexpected character at line %d\n", yylineno); exit(EXIT_FAILURE);}
 
 %%
 
