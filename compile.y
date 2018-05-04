@@ -1,16 +1,30 @@
 %{
+#include <iostream>
+#include <string>
 #include <stdio.h>
 #include <stdlib.h>
+using namespace std;
 
 void yyerror(const char *);
 extern int yylex();
 extern int yylineno;
 extern char* yytext;
+int tableCount;
+string symbols[4];
+int symbolTable[4]; //hard coded b/c i know there's only 4
+int getSymbolValue(string symbol);
+void updateSymbolTable(string symbol, int value);
 %}
 
 /* Yacc Definitions */
+%union {int num; char* iden; char* strings;}
 %token PROGRAM START END PRINT VAR
-%token INTEGER INT IDENTIFIER STRING
+%token INTEGER
+%token <num> INT
+%token <iden> IDENTIFIER
+%token <strings> STRING
+%type <iden> assign //id
+%type <num> expr term factor number
 %start start
 
 %%
@@ -39,12 +53,13 @@ statements	: START statlist stop {;}
 stop		: END {exit(EXIT_SUCCESS);}
 		;
 
-pname		: id {;}
+pname		: IDENTIFIER//id {;}
+		| error {printf("Expected an identifier at line %d, but found %s instead\n", yylineno, yytext); exit(EXIT_FAILURE);}
 		;
 
-id		: IDENTIFIER {;}
+/*id		: IDENTIFIER {$$ = getSymbolValue($1);}//{$$ = getsymboltablevalue($1);}
 		| error { printf("Expected an identifier at line %d, but found %s instead\n", yylineno, yytext); exit(EXIT_FAILURE);}
-		;
+		;*/
 
 declist		: dec ':' type {;}
 		| error {printf("Expected : at line %d\n", yylineno); exit(EXIT_FAILURE);}
@@ -54,9 +69,10 @@ declist		: dec ':' type {;}
 		| error {printf("Expected : at line %d\n", yylineno); exit(EXIT_FAILURE);}
 		;*/
 
-dec		: /*id commaCheck {;}*/id ',' dec {;} 
-		| id {;}
-//		| error {printf("Expected , at line %d\n", yylineno); exit(EXIT_FAILURE);} // fix this, there is a reduce problem
+dec		: /*id commaCheck {;}*/IDENTIFIER ',' dec {;} 
+		| IDENTIFIER {;}
+		| error {printf("Expected an identifer at line %d, but found %s instead\n", yylineno, yytext); exit(EXIT_FAILURE);} // fix this, there is a 
+																    // reduce problem
 		;
 
 /*commaCheck	: ',' decCheck {;}
@@ -81,33 +97,38 @@ stat		: print {;}
 		| assign {;}
 		;
 
-print		: PRINT '(' output ')' {;}
+print		: PRINT outputCheck {;}//'(' output ')' {printf("%d", $3);}
+		| error {printf("Expected PRINT on line %d, but found &s instead\n", yylineno, yytext); exit(EXIT_FAILURE);}
 		;
 
-output 		: id {;}
-		| STRING ',' id {;} 
+outputCheck	: '(' output ')' {;}//{printf("%d", $2);}
+		| error {printf("Expected parentheses on line %d, but found %s instead", yylineno, yytext); exit(EXIT_FAILURE);}
 		;
 
-assign		: id '=' expr
-		| error { printf("= is missing at line %d\n", yylineno); exit(EXIT_FAILURE);}
+output 		: IDENTIFIER {cout << getSymbolValue($1);}
+		| STRING ',' IDENTIFIER {cout << $1 << getSymbolValue($3);} 
 		;
 
-expr		: term
-		| expr '+' term
-		| expr '-' term
+assign		: IDENTIFIER '=' expr {updateSymbolTable($1, $3);}
+//		| error { printf("= is missing at line %d\n", yylineno); exit(EXIT_FAILURE);}
 		;
 
-term		: term '*' factor
-		| term '/' factor
-		| factor
+expr		: term {$$ = $1;}
+		| expr '+' term {$$ = $1 + $3;}
+		| expr '-' term {$$ = $1 - $3;}
 		;
 
-factor		: id
-		| number
-		| '(' expr ')'
+term		: term '*' factor {$$ = $1 * $3;}
+		| term '/' factor {$$ = $1 / $3;}
+		| factor {$$ = $1;}
 		;
 
-number		: INT
+factor		: IDENTIFIER {$$ = getSymbolValue($1);}//{$$ = getSymbolValue($1);}
+		| number {;} //{$$ = $1}
+		| '(' expr ')' {$$ = $2;}
+		;
+
+number		: INT {$$ = $1;}
 		;
 
 type		: INTEGER
@@ -116,7 +137,32 @@ type		: INTEGER
 %%
 #include <stdio.h>
 
+int getSymbolValue(string symbol){
+	for(int i = 0; i < 4; i++)
+	{
+		if(symbols[i] == symbol)
+		{
+		return symbolTable[i];
+		}
+	}
+cout << "Unrecognized symbol at line " << yylineno << endl;
+exit(EXIT_FAILURE);
+return 0;
+}
+
+void updateSymbolTable(string symbol, int value){
+	symbols[tableCount] = symbol;
+	symbolTable[tableCount] = value;
+	tableCount++;
+}
+
 int main(){
+	for(int i = 0; i < 4; i++)
+	{
+	symbols[i] = "";
+	symbolTable[i] = 0;
+	}
+	tableCount = 0;
 	return(yyparse());
 }
 

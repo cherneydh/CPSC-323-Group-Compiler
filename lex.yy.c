@@ -398,17 +398,23 @@ char *yytext;
 #line 1 "compile.l"
 #define INITIAL 0
 #line 6 "compile.l"
+#include <iostream>
 #include <stdio.h>
+#include <string.h>
 #include "compile.tab.h"
+using namespace std;
 
 //<<<<<<< HEAD
 extern void yyerror(const char *);
-extern int yylineno = 1; 
+extern int yylineno = 1;
+char* cstr; 
+char* cstr2;
+char* cstr3;
 // When ready, change printf -> return
 //=======
 //extern void yyerror(const char *); 
 //>>>>>>> master
-#line 412 "lex.yy.c"
+#line 418 "lex.yy.c"
 
 /* Macros after this point can all be overridden by user definitions in
  * section 1.
@@ -559,10 +565,10 @@ YY_DECL
 	register char *yy_cp, *yy_bp;
 	register int yy_act;
 
-#line 18 "compile.l"
+#line 24 "compile.l"
 
 
-#line 566 "lex.yy.c"
+#line 572 "lex.yy.c"
 
 	if ( yy_init )
 		{
@@ -647,125 +653,136 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 20 "compile.l"
+#line 26 "compile.l"
 { return(PROGRAM); }
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 21 "compile.l"
+#line 27 "compile.l"
 { return(INTEGER); }
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 22 "compile.l"
+#line 28 "compile.l"
 { return(START); }
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 23 "compile.l"
+#line 29 "compile.l"
 { return(END); }
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 24 "compile.l"
+#line 30 "compile.l"
 { return(PRINT); }
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 25 "compile.l"
+#line 31 "compile.l"
 { return(VAR); }
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
-#line 26 "compile.l"
-{ return(IDENTIFIER); }
+#line 32 "compile.l"
+{ string temp2; char *hold2 = yytext;
+		  temp2 = hold2; cstr2 = new char[temp2.length() + 1];
+		  strcpy(cstr2, temp2.c_str());
+		  yylval.iden = cstr2;
+		  return(IDENTIFIER); }
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
-#line 27 "compile.l"
-{ return(INT); }
+#line 37 "compile.l"
+{ string temp; char* hold = yytext; 
+		  temp = hold; cstr = new char[temp.length() + 1]; 
+		  strcpy(cstr, temp.c_str()); 
+		  yylval.num = atoi(cstr); return (INT);}
 	YY_BREAK
 case 9:
 YY_RULE_SETUP
-#line 28 "compile.l"
-{ return(STRING); } 
+#line 41 "compile.l"
+{ string temp3; char* hold3 = yytext;
+		  temp3 = hold3; cstr3 = new char[temp3.length() + 1];
+		  strcpy(cstr3, temp3.c_str());
+		  yylval.strings = cstr3;
+		  return(STRING); } 
 	YY_BREAK
 case 10:
 YY_RULE_SETUP
-#line 30 "compile.l"
+#line 47 "compile.l"
 { return '-'; }
 	YY_BREAK
 case 11:
 YY_RULE_SETUP
-#line 31 "compile.l"
+#line 48 "compile.l"
 { return '+'; }
 	YY_BREAK
 case 12:
 YY_RULE_SETUP
-#line 32 "compile.l"
+#line 49 "compile.l"
 { return '*'; }
 	YY_BREAK
 case 13:
 YY_RULE_SETUP
-#line 33 "compile.l"
+#line 50 "compile.l"
 { return '/'; }
 	YY_BREAK
 case 14:
 YY_RULE_SETUP
-#line 34 "compile.l"
+#line 51 "compile.l"
 { return ','; }
 	YY_BREAK
 case 15:
 YY_RULE_SETUP
-#line 35 "compile.l"
+#line 52 "compile.l"
 { return ':'; }
 	YY_BREAK
 case 16:
 YY_RULE_SETUP
-#line 36 "compile.l"
+#line 53 "compile.l"
 { return '='; }
 	YY_BREAK
 case 17:
 YY_RULE_SETUP
-#line 37 "compile.l"
+#line 54 "compile.l"
 { return '('; }
 	YY_BREAK
 case 18:
 YY_RULE_SETUP
-#line 38 "compile.l"
+#line 55 "compile.l"
 { return ')'; }
 	YY_BREAK
 case 19:
 YY_RULE_SETUP
-#line 39 "compile.l"
+#line 56 "compile.l"
 { return ';'; }
 	YY_BREAK
 case 20:
 YY_RULE_SETUP
-#line 40 "compile.l"
+#line 57 "compile.l"
 { return '\''; }
 	YY_BREAK
 case 21:
 YY_RULE_SETUP
-#line 42 "compile.l"
+#line 59 "compile.l"
 {;}
 	YY_BREAK
 case 22:
 YY_RULE_SETUP
-#line 43 "compile.l"
+#line 60 "compile.l"
 {yylineno++;}
 	YY_BREAK
 case 23:
 YY_RULE_SETUP
-#line 44 "compile.l"
+#line 61 "compile.l"
 {printf("Unexpected character at line %d\n", yylineno); exit(EXIT_FAILURE);}
 	YY_BREAK
 case 24:
 YY_RULE_SETUP
-#line 46 "compile.l"
+#line 63 "compile.l"
 ECHO;
 	YY_BREAK
-#line 769 "lex.yy.c"
+#line 786 "lex.yy.c"
 case YY_STATE_EOF(INITIAL):
 	yyterminate();
 
@@ -1651,9 +1668,12 @@ int main()
 	return 0;
 	}
 #endif
-#line 46 "compile.l"
+#line 63 "compile.l"
 
 
 int yywrap(void){
+	delete[] cstr;
+	delete[] cstr2;
+	delete[] cstr3;
 	return 1;
 }

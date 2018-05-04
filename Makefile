@@ -1,5 +1,5 @@
 myscanner: lex.yy.c compile.tab.h compile.tab.c
-	gcc lex.yy.c compile.tab.c -o a.out
+	g++ lex.yy.c compile.tab.c -o a.out
 
 compile.tab.c: compile.y
 	bison -d compile.y
