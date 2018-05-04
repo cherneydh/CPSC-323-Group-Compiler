@@ -9,9 +9,11 @@ void yyerror(const char *);
 extern int yylex();
 extern int yylineno;
 extern char* yytext;
-int tableCount;
+int tableCount, checkCount;
+string symbolCheck[4];
 string symbols[4];
 int symbolTable[4]; //hard coded b/c i know there's only 4
+void insertSymbol(string symbol);
 int getSymbolValue(string symbol);
 void updateSymbolTable(string symbol, int value);
 %}
@@ -69,8 +71,8 @@ declist		: dec ':' type {;}
 		| error {printf("Expected : at line %d\n", yylineno); exit(EXIT_FAILURE);}
 		;*/
 
-dec		: /*id commaCheck {;}*/IDENTIFIER ',' dec {;} 
-		| IDENTIFIER {;}
+dec		: /*id commaCheck {;}*/IDENTIFIER ',' dec {insertSymbol($1);} 
+		| IDENTIFIER {insertSymbol($1);}
 		| error {printf("Expected an identifer at line %d, but found %s instead\n", yylineno, yytext); exit(EXIT_FAILURE);} // fix this, there is a 
 																    // reduce problem
 		;
@@ -137,6 +139,11 @@ type		: INTEGER
 %%
 #include <stdio.h>
 
+void insertSymbol(string symbol){
+	symbolCheck[checkCount] = symbol;
+	checkCount++;
+}
+
 int getSymbolValue(string symbol){
 	for(int i = 0; i < 4; i++)
 	{
@@ -145,15 +152,32 @@ int getSymbolValue(string symbol){
 		return symbolTable[i];
 		}
 	}
-cout << "Unrecognized symbol at line " << yylineno << endl;
+cout << "Unrecognized symbol \"" << symbol <<"\" at line " << yylineno << endl;
 exit(EXIT_FAILURE);
 return 0;
 }
 
 void updateSymbolTable(string symbol, int value){
+	bool flag = false;
+	for(int i = 0; i < 5; i++)
+	{
+		if(symbolCheck[i] == symbol)
+		{
+		flag = true;
+		break;
+		}
+	}
+	if(flag)
+	{
 	symbols[tableCount] = symbol;
 	symbolTable[tableCount] = value;
 	tableCount++;
+	}
+	else
+	{
+	cout << "Unrecognized symbol \"" << symbol <<"\" at line " << yylineno << endl;
+	exit(EXIT_FAILURE);
+	}
 }
 
 int main(){
@@ -162,7 +186,7 @@ int main(){
 	symbols[i] = "";
 	symbolTable[i] = 0;
 	}
-	tableCount = 0;
+	tableCount = checkCount = 0;
 	return(yyparse());
 }
 

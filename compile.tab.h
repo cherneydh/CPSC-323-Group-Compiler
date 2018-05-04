@@ -58,7 +58,7 @@ typedef union YYSTYPE
 {
 
 /* Line 1676 of yacc.c  */
-#line 20 "compile.y"
+#line 22 "compile.y"
 int num; char* iden; char* strings;
 
 

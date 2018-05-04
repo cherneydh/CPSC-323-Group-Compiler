@@ -80,15 +80,17 @@ void yyerror(const char *);
 extern int yylex();
 extern int yylineno;
 extern char* yytext;
-int tableCount;
+int tableCount, checkCount;
+string symbolCheck[4];
 string symbols[4];
 int symbolTable[4]; //hard coded b/c i know there's only 4
+void insertSymbol(string symbol);
 int getSymbolValue(string symbol);
 void updateSymbolTable(string symbol, int value);
 
 
 /* Line 189 of yacc.c  */
-#line 92 "compile.tab.c"
+#line 94 "compile.tab.c"
 
 /* Enabling traces.  */
 #ifndef YYDEBUG
@@ -134,12 +136,12 @@ typedef union YYSTYPE
 {
 
 /* Line 214 of yacc.c  */
-#line 20 "compile.y"
+#line 22 "compile.y"
 int num; char* iden; char* strings;
 
 
 /* Line 214 of yacc.c  */
-#line 143 "compile.tab.c"
+#line 145 "compile.tab.c"
 } YYSTYPE;
 # define YYSTYPE_IS_TRIVIAL 1
 # define yystype YYSTYPE /* obsolescent; will be withdrawn */
@@ -151,7 +153,7 @@ int num; char* iden; char* strings;
 
 
 /* Line 264 of yacc.c  */
-#line 155 "compile.tab.c"
+#line 157 "compile.tab.c"
 
 #ifdef short
 # undef short
@@ -449,11 +451,11 @@ static const yytype_int8 yyrhs[] =
 /* YYRLINE[YYN] -- source line where rule number YYN was defined.  */
 static const yytype_uint8 yyrline[] =
 {
-       0,    31,    31,    32,    35,    36,    37,    40,    41,    44,
-      45,    46,    49,    50,    53,    56,    57,    64,    65,    72,
-      73,    74,    86,    87,    88,    96,    97,   100,   101,   104,
-     105,   108,   109,   112,   116,   117,   118,   121,   122,   123,
-     126,   127,   128,   131,   134,   135
+       0,    33,    33,    34,    37,    38,    39,    42,    43,    46,
+      47,    48,    51,    52,    55,    58,    59,    66,    67,    74,
+      75,    76,    88,    89,    90,    98,    99,   102,   103,   106,
+     107,   110,   111,   114,   118,   119,   120,   123,   124,   125,
+     128,   129,   130,   133,   136,   137
 };
 #endif
 
@@ -1397,301 +1399,301 @@ yyreduce:
         case 2:
 
 /* Line 1455 of yacc.c  */
-#line 31 "compile.y"
+#line 33 "compile.y"
     {;;}
     break;
 
   case 3:
 
 /* Line 1455 of yacc.c  */
-#line 32 "compile.y"
+#line 34 "compile.y"
     {printf("Expected PROGRAM at line %d, but found %s instead\n", yylineno, yytext); exit(EXIT_FAILURE);;}
     break;
 
   case 4:
 
 /* Line 1455 of yacc.c  */
-#line 35 "compile.y"
+#line 37 "compile.y"
     {;;}
     break;
 
   case 5:
 
 /* Line 1455 of yacc.c  */
-#line 36 "compile.y"
+#line 38 "compile.y"
     {;;}
     break;
 
   case 6:
 
 /* Line 1455 of yacc.c  */
-#line 37 "compile.y"
+#line 39 "compile.y"
     {printf("Expected ; at line %d\n", (yylineno - 1)); exit(EXIT_FAILURE);;}
     break;
 
   case 7:
 
 /* Line 1455 of yacc.c  */
-#line 40 "compile.y"
+#line 42 "compile.y"
     {;;}
     break;
 
   case 8:
 
 /* Line 1455 of yacc.c  */
-#line 41 "compile.y"
+#line 43 "compile.y"
     {printf("Expected VAR at line %d, but found %s instead\n", yylineno, yytext); exit(EXIT_FAILURE);;}
     break;
 
   case 9:
 
 /* Line 1455 of yacc.c  */
-#line 44 "compile.y"
+#line 46 "compile.y"
     {;;}
     break;
 
   case 10:
 
 /* Line 1455 of yacc.c  */
-#line 45 "compile.y"
+#line 47 "compile.y"
     {;;}
     break;
 
   case 11:
 
 /* Line 1455 of yacc.c  */
-#line 46 "compile.y"
+#line 48 "compile.y"
     {printf("Expected ; at line %d\n", (yylineno - 1)); exit(EXIT_FAILURE);;}
     break;
 
   case 12:
 
 /* Line 1455 of yacc.c  */
-#line 49 "compile.y"
+#line 51 "compile.y"
     {;;}
     break;
 
   case 13:
 
 /* Line 1455 of yacc.c  */
-#line 50 "compile.y"
+#line 52 "compile.y"
     {printf("Expected BEGIN at line %d, but found %s instead\n", yylineno, yytext); exit(EXIT_FAILURE);;}
     break;
 
   case 14:
 
 /* Line 1455 of yacc.c  */
-#line 53 "compile.y"
+#line 55 "compile.y"
     {exit(EXIT_SUCCESS);;}
     break;
 
   case 16:
 
 /* Line 1455 of yacc.c  */
-#line 57 "compile.y"
+#line 59 "compile.y"
     {printf("Expected an identifier at line %d, but found %s instead\n", yylineno, yytext); exit(EXIT_FAILURE);;}
     break;
 
   case 17:
 
 /* Line 1455 of yacc.c  */
-#line 64 "compile.y"
+#line 66 "compile.y"
     {;;}
     break;
 
   case 18:
 
 /* Line 1455 of yacc.c  */
-#line 65 "compile.y"
+#line 67 "compile.y"
     {printf("Expected : at line %d\n", yylineno); exit(EXIT_FAILURE);;}
     break;
 
   case 19:
 
 /* Line 1455 of yacc.c  */
-#line 72 "compile.y"
-    {;;}
+#line 74 "compile.y"
+    {insertSymbol((yyvsp[(1) - (3)].iden));;}
     break;
 
   case 20:
 
 /* Line 1455 of yacc.c  */
-#line 73 "compile.y"
-    {;;}
+#line 75 "compile.y"
+    {insertSymbol((yyvsp[(1) - (1)].iden));;}
     break;
 
   case 21:
 
 /* Line 1455 of yacc.c  */
-#line 74 "compile.y"
+#line 76 "compile.y"
     {printf("Expected an identifer at line %d, but found %s instead\n", yylineno, yytext); exit(EXIT_FAILURE);;}
     break;
 
   case 22:
 
 /* Line 1455 of yacc.c  */
-#line 86 "compile.y"
+#line 88 "compile.y"
     {;;}
     break;
 
   case 23:
 
 /* Line 1455 of yacc.c  */
-#line 87 "compile.y"
+#line 89 "compile.y"
     {;;}
     break;
 
   case 24:
 
 /* Line 1455 of yacc.c  */
-#line 88 "compile.y"
+#line 90 "compile.y"
     {printf("Expected a ; at line %d\n", yylineno); exit(EXIT_FAILURE);;}
     break;
 
   case 25:
 
 /* Line 1455 of yacc.c  */
-#line 96 "compile.y"
+#line 98 "compile.y"
     {;;}
     break;
 
   case 26:
 
 /* Line 1455 of yacc.c  */
-#line 97 "compile.y"
+#line 99 "compile.y"
     {;;}
     break;
 
   case 27:
 
 /* Line 1455 of yacc.c  */
-#line 100 "compile.y"
+#line 102 "compile.y"
     {;;}
     break;
 
   case 28:
 
 /* Line 1455 of yacc.c  */
-#line 101 "compile.y"
+#line 103 "compile.y"
     {printf("Expected PRINT on line %d, but found &s instead\n", yylineno, yytext); exit(EXIT_FAILURE);;}
     break;
 
   case 29:
 
 /* Line 1455 of yacc.c  */
-#line 104 "compile.y"
+#line 106 "compile.y"
     {;;}
     break;
 
   case 30:
 
 /* Line 1455 of yacc.c  */
-#line 105 "compile.y"
+#line 107 "compile.y"
     {printf("Expected parentheses on line %d, but found %s instead", yylineno, yytext); exit(EXIT_FAILURE);;}
     break;
 
   case 31:
 
 /* Line 1455 of yacc.c  */
-#line 108 "compile.y"
+#line 110 "compile.y"
     {cout << getSymbolValue((yyvsp[(1) - (1)].iden));;}
     break;
 
   case 32:
 
 /* Line 1455 of yacc.c  */
-#line 109 "compile.y"
+#line 111 "compile.y"
     {cout << (yyvsp[(1) - (3)].strings) << getSymbolValue((yyvsp[(3) - (3)].iden));;}
     break;
 
   case 33:
 
 /* Line 1455 of yacc.c  */
-#line 112 "compile.y"
+#line 114 "compile.y"
     {updateSymbolTable((yyvsp[(1) - (3)].iden), (yyvsp[(3) - (3)].num));;}
     break;
 
   case 34:
 
 /* Line 1455 of yacc.c  */
-#line 116 "compile.y"
+#line 118 "compile.y"
     {(yyval.num) = (yyvsp[(1) - (1)].num);;}
     break;
 
   case 35:
 
 /* Line 1455 of yacc.c  */
-#line 117 "compile.y"
+#line 119 "compile.y"
     {(yyval.num) = (yyvsp[(1) - (3)].num) + (yyvsp[(3) - (3)].num);;}
     break;
 
   case 36:
 
 /* Line 1455 of yacc.c  */
-#line 118 "compile.y"
+#line 120 "compile.y"
     {(yyval.num) = (yyvsp[(1) - (3)].num) - (yyvsp[(3) - (3)].num);;}
     break;
 
   case 37:
 
 /* Line 1455 of yacc.c  */
-#line 121 "compile.y"
+#line 123 "compile.y"
     {(yyval.num) = (yyvsp[(1) - (3)].num) * (yyvsp[(3) - (3)].num);;}
     break;
 
   case 38:
 
 /* Line 1455 of yacc.c  */
-#line 122 "compile.y"
+#line 124 "compile.y"
     {(yyval.num) = (yyvsp[(1) - (3)].num) / (yyvsp[(3) - (3)].num);;}
     break;
 
   case 39:
 
 /* Line 1455 of yacc.c  */
-#line 123 "compile.y"
+#line 125 "compile.y"
     {(yyval.num) = (yyvsp[(1) - (1)].num);;}
     break;
 
   case 40:
 
 /* Line 1455 of yacc.c  */
-#line 126 "compile.y"
+#line 128 "compile.y"
     {(yyval.num) = getSymbolValue((yyvsp[(1) - (1)].iden));;}
     break;
 
   case 41:
 
 /* Line 1455 of yacc.c  */
-#line 127 "compile.y"
+#line 129 "compile.y"
     {;;}
     break;
 
   case 42:
 
 /* Line 1455 of yacc.c  */
-#line 128 "compile.y"
+#line 130 "compile.y"
     {(yyval.num) = (yyvsp[(2) - (3)].num);;}
     break;
 
   case 43:
 
 /* Line 1455 of yacc.c  */
-#line 131 "compile.y"
+#line 133 "compile.y"
     {(yyval.num) = (yyvsp[(1) - (1)].num);;}
     break;
 
   case 45:
 
 /* Line 1455 of yacc.c  */
-#line 135 "compile.y"
+#line 137 "compile.y"
     {printf("Expected INTEGER at line %d, but found %s", yylineno, yytext); exit(EXIT_FAILURE);;}
     break;
 
 
 
 /* Line 1455 of yacc.c  */
-#line 1695 "compile.tab.c"
+#line 1697 "compile.tab.c"
       default: break;
     }
   YY_SYMBOL_PRINT ("-> $$ =", yyr1[yyn], &yyval, &yyloc);
@@ -1903,9 +1905,14 @@ yyreturn:
 
 
 /* Line 1675 of yacc.c  */
-#line 137 "compile.y"
+#line 139 "compile.y"
 
 #include <stdio.h>
+
+void insertSymbol(string symbol){
+	symbolCheck[checkCount] = symbol;
+	checkCount++;
+}
 
 int getSymbolValue(string symbol){
 	for(int i = 0; i < 4; i++)
@@ -1915,15 +1922,32 @@ int getSymbolValue(string symbol){
 		return symbolTable[i];
 		}
 	}
-cout << "Unrecognized symbol at line " << yylineno << endl;
+cout << "Unrecognized symbol \"" << symbol <<"\" at line " << yylineno << endl;
 exit(EXIT_FAILURE);
 return 0;
 }
 
 void updateSymbolTable(string symbol, int value){
+	bool flag = false;
+	for(int i = 0; i < 5; i++)
+	{
+		if(symbolCheck[i] == symbol)
+		{
+		flag = true;
+		break;
+		}
+	}
+	if(flag)
+	{
 	symbols[tableCount] = symbol;
 	symbolTable[tableCount] = value;
 	tableCount++;
+	}
+	else
+	{
+	cout << "Unrecognized symbol \"" << symbol <<"\" at line " << yylineno << endl;
+	exit(EXIT_FAILURE);
+	}
 }
 
 int main(){
@@ -1932,7 +1956,7 @@ int main(){
 	symbols[i] = "";
 	symbolTable[i] = 0;
 	}
-	tableCount = 0;
+	tableCount = checkCount = 0;
 	return(yyparse());
 }
 
