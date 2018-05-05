@@ -58,7 +58,7 @@ char* cstr3;
 
 {WS}+		{;}
 [\n]		{yylineno++;}
-.		{printf("Unexpected character at line %d\n", yylineno); exit(EXIT_FAILURE);}
+.		{printf("Unexpected character at line %d\n", yylineno);}
 
 %%
 
