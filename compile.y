@@ -193,5 +193,5 @@ int main(){
 void yyerror(const char *s)
 {
 	fflush(stdout);
-	fprintf(stderr, "*** %s at line %d\n", s, yylineno);
+	//fprintf(stderr, "*** %s at line %d\n", s, yylineno);
 }
