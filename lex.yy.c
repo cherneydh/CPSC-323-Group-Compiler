@@ -399,6 +399,7 @@ char *yytext;
 #define INITIAL 0
 #line 6 "compile.l"
 #include <iostream>
+#include <fstream>
 #include <stdio.h>
 #include <string.h>
 #include "compile.tab.h"
@@ -410,11 +411,16 @@ extern int yylineno = 1;
 char* cstr; 
 char* cstr2;
 char* cstr3;
+string appendage = "";
+bool flag = false;
+bool pflag = false;
+bool printFlag = false;
 // When ready, change printf -> return
 //=======
 //extern void yyerror(const char *); 
 //>>>>>>> master
-#line 418 "lex.yy.c"
+ofstream outfile("abc13.cpp");
+#line 424 "lex.yy.c"
 
 /* Macros after this point can all be overridden by user definitions in
  * section 1.
@@ -565,10 +571,10 @@ YY_DECL
 	register char *yy_cp, *yy_bp;
 	register int yy_act;
 
-#line 24 "compile.l"
+#line 30 "compile.l"
 
 
-#line 572 "lex.yy.c"
+#line 578 "lex.yy.c"
 
 	if ( yy_init )
 		{
@@ -653,136 +659,149 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 26 "compile.l"
-{ return(PROGRAM); }
+#line 32 "compile.l"
+{ outfile << "#include<iostream>\nusing namespace std;"; pflag = true; return(PROGRAM); }
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 27 "compile.l"
-{ return(INTEGER); }
+#line 33 "compile.l"
+{ outfile << "int "; outfile << appendage; appendage.clear(); return(INTEGER); }
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 28 "compile.l"
-{ return(START); }
+#line 34 "compile.l"
+{ outfile << "int main(){"; return(START); }
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 29 "compile.l"
-{ return(END); }
+#line 35 "compile.l"
+{ outfile << "return 0;}"; return(END); }
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 30 "compile.l"
-{ return(PRINT); }
+#line 36 "compile.l"
+{ outfile << "cout << "; printFlag = true; return(PRINT); }
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 31 "compile.l"
-{ return(VAR); }
+#line 37 "compile.l"
+{ flag = true; pflag = false; return(VAR); }
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
-#line 32 "compile.l"
+#line 38 "compile.l"
 { string temp2; char *hold2 = yytext;
 		  temp2 = hold2; cstr2 = new char[temp2.length() + 1];
 		  strcpy(cstr2, temp2.c_str());
 		  yylval.iden = cstr2;
+		  if(flag)
+		  {
+		  appendage += cstr2;
+		  }
+		  else
+		  {
+		  if(pflag) 
+		  	{}
+		  else 
+			{outfile << cstr2;}
+		  }
 		  return(IDENTIFIER); }
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
-#line 37 "compile.l"
+#line 54 "compile.l"
 { string temp; char* hold = yytext; 
 		  temp = hold; cstr = new char[temp.length() + 1]; 
 		  strcpy(cstr, temp.c_str()); 
-		  yylval.num = atoi(cstr); return (INT);}
+		  yylval.num = atoi(cstr);
+		  outfile << atoi(cstr); return (INT);}
 	YY_BREAK
 case 9:
 YY_RULE_SETUP
-#line 41 "compile.l"
+#line 59 "compile.l"
 { string temp3; char* hold3 = yytext;
 		  temp3 = hold3; cstr3 = new char[temp3.length() + 1];
 		  strcpy(cstr3, temp3.c_str());
 		  yylval.strings = cstr3;
+		  outfile << "\"" << cstr3 << "\"";
 		  return(STRING); } 
 	YY_BREAK
 case 10:
 YY_RULE_SETUP
-#line 47 "compile.l"
-{ return '-'; }
+#line 66 "compile.l"
+{ outfile << "-"; return '-'; }
 	YY_BREAK
 case 11:
 YY_RULE_SETUP
-#line 48 "compile.l"
-{ return '+'; }
+#line 67 "compile.l"
+{ outfile << "+"; return '+'; }
 	YY_BREAK
 case 12:
 YY_RULE_SETUP
-#line 49 "compile.l"
-{ return '*'; }
+#line 68 "compile.l"
+{ outfile << "*"; return '*'; }
 	YY_BREAK
 case 13:
 YY_RULE_SETUP
-#line 50 "compile.l"
-{ return '/'; }
+#line 69 "compile.l"
+{ outfile << "/"; return '/'; }
 	YY_BREAK
 case 14:
 YY_RULE_SETUP
-#line 51 "compile.l"
-{ return ','; }
+#line 70 "compile.l"
+{ if(flag){appendage += ",";}else { if(printFlag){outfile << " << ";} else {outfile << ",";}} return ','; }
 	YY_BREAK
 case 15:
 YY_RULE_SETUP
-#line 52 "compile.l"
-{ return ':'; }
+#line 71 "compile.l"
+{ flag = false; return ':'; }
 	YY_BREAK
 case 16:
 YY_RULE_SETUP
-#line 53 "compile.l"
-{ return '='; }
+#line 72 "compile.l"
+{ outfile << "="; return '='; }
 	YY_BREAK
 case 17:
 YY_RULE_SETUP
-#line 54 "compile.l"
-{ return '('; }
+#line 73 "compile.l"
+{ if(printFlag){}else {outfile << "(";} return '('; }
 	YY_BREAK
 case 18:
 YY_RULE_SETUP
-#line 55 "compile.l"
-{ return ')'; }
+#line 74 "compile.l"
+{ if(printFlag){}else {outfile << ")";} printFlag = false; return ')'; }
 	YY_BREAK
 case 19:
 YY_RULE_SETUP
-#line 56 "compile.l"
-{ return ';'; }
+#line 75 "compile.l"
+{ if(pflag){}else{outfile << ";";} return ';'; }
 	YY_BREAK
 case 20:
 YY_RULE_SETUP
-#line 57 "compile.l"
-{ return '\''; }
+#line 76 "compile.l"
+{ outfile << "\'"; return '\''; }
 	YY_BREAK
 case 21:
 YY_RULE_SETUP
-#line 59 "compile.l"
-{;}
+#line 78 "compile.l"
+{if(flag){appendage += " ";} else{outfile << " ";}}
 	YY_BREAK
 case 22:
 YY_RULE_SETUP
-#line 60 "compile.l"
-{yylineno++;}
+#line 79 "compile.l"
+{outfile << "\n"; yylineno++;}
 	YY_BREAK
 case 23:
 YY_RULE_SETUP
-#line 61 "compile.l"
-{printf("Unexpected character at line %d\n", yylineno); exit(EXIT_FAILURE);}
+#line 80 "compile.l"
+{printf("Unexpected character at line %d\n", yylineno);}
 	YY_BREAK
 case 24:
 YY_RULE_SETUP
-#line 63 "compile.l"
+#line 82 "compile.l"
 ECHO;
 	YY_BREAK
-#line 786 "lex.yy.c"
+#line 805 "lex.yy.c"
 case YY_STATE_EOF(INITIAL):
 	yyterminate();
 
@@ -1668,12 +1687,13 @@ int main()
 	return 0;
 	}
 #endif
-#line 63 "compile.l"
+#line 82 "compile.l"
 
 
 int yywrap(void){
 	delete[] cstr;
 	delete[] cstr2;
 	delete[] cstr3;
+	outfile.close();
 	return 1;
 }
